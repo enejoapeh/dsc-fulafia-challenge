@@ -15,6 +15,6 @@ Be creative and have fun..!!
 - JavaScript
 
 ## Facilitator(s)
-Name: Priest Sabo  
-Phone: 080  
-Email: priest@gmail.com  
+Name: Priest Sabo Ombugadu  
+Phone: 08160606990
+Email: sabopriest@gmail.com  
