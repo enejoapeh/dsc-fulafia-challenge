@@ -4,7 +4,7 @@
 
 S/N | Project | Name | Email | Phone 
 --- | --- | --- | --- | ---
-1. | [COVID-19 Dictator](project/COVID-19-Dictator/README.md) | Ismail Umar | ismail@gmial.com | 08039262966
+1. | [COVID-19 Dictator](project/COVID-19-Dictator/README.md) | Umar Ismail | ismailumarbaba@gmail.com | 08039262966
 2. | [Typing speed](project/Typing-speed/README.md) | Priest Sabo | priestsabo@gmial.com | 08160606990
 3. | [Portfolio generator](project/Portfolio-generator/README.md) | Antony Ameh | anton@gmial.com | 08125260125
 4. | [ID card generator](project/ID-card-generator/README.md) | Christian | qrist@gmial.com | 08090990653
