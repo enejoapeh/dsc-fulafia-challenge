@@ -11,8 +11,8 @@ S/N | Project | Name | Email | Phone
 5. | [Birth Certificate generator](project/Birth-Certificate-generator/README.md) | Anthony Ameh | antonineutron@gmail.com | 08125260125
 6. | [Genotype matcher](project/Genotype-matcher/README.md) | Gabriel Chia | gabu@gmial.com | 08141599763
 7. | [GP Adviser](project/GP-adviser/README.md) | Tasiu Kwaplong S. | tasiukwaplong@gmial.com | 09031514346
-8. | [Lodges and prices](project/lodge-and-price/README.md) | Tunde | tunde@gmial.com | 07082792279
-9. | [Lodges and prices](project/lodge-and-price/README.md) | Abdullahi Muhammad | leeko@gmial.com | 09064888311
+8. | [Lodges and prices](project/lodge-and-price/README.md) | Tunde O.| tundeobalohun@gmial.com | 08058572622
+9. | [Lodges and prices](project/lodge-and-price/README.md) | Aliyu Muhammad | leekogram@gmial.com | 07051482123
 
 
 

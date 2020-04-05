@@ -15,6 +15,6 @@ Be creative and have fun..!!
 - JavaScript
 
 ## Facilitator(s)
-Name: Ismail Umar  
-Phone: 080  
-Email: ismail@gmail.com  
+Name: Umar Ismail  
+Phone: 08039262966  
+Email: ismailumarbaba@gmail.com  

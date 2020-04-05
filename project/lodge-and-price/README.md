@@ -13,13 +13,13 @@ Be creative and have fun..!!
 - XML
 
 ## Facilitator(s)
-Name: Tunde   
-Phone: 080  
-Email: tunde@gmail.com   
+Name: Tunde O   
+Phone: 08058572622  
+Email: tundeobalohun@gmail.com   
 
 Name: Aliyu Muhammad   
-Phone: 080  
-Email: aliyu@gmail.com   
+Phone: 07051482123  
+Email: leekogram@gmail.com   
 
 
 
