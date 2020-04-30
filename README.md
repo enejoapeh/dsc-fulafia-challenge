@@ -9,7 +9,7 @@ This reposiotory contains instructions to web and android projects to be submitt
 The project is expected to be completed within four(4) weeks of commencement.  
 
 **Start:** 3rd April 2020  
-**Submission:** To be disclosed  
+**Submission:** ~30th April 2020~ 12th May 2020  
 **Check** - in: Atleast once every week
 
 **Check ins:** This involve giving feedback to your assigned facilitator on progress of work
