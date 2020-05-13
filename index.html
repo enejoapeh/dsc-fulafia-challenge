@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name= "HandledFriendly" content="true" />
+<meta name="viewport" content="width=devicce-width,height=devicce-height, user-scalable=yes"/>
+<title> COVID-19CHECK</title>
+
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: rgb(0,200,0);;
+    clear: left;
+    text-align: center;
+}
+a:hover,a:active{color:#4CAF50}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+
+center a{
+padding: 45px;
+border: 9px solid rgb(0,200,0);
+background-color: rgb(0,200,0);
+color: Yellow;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+center{
+margin:15%;
+}
+</style>
+</head>
+<body
+onload="startTime()">
+
+<div id="txt"></div>
+
+ <H1> <marquee  direction="left">COVID-19 is real > The irresponsibility of a <span style="font-size:larger;">few will lead to the</span> <span style="color:red" "font-size:larger;"> death of many...<span style="color:green;">STAY SAFE!!! </marquee> </H1>	
+
+
+
+<header>
+   <h1>COVID-19-CHECKER</h1>
+</header>
+  
+<nav>
+  <ul>
+    
+    <li><a href="contact.html">Contact Us</a></li><br><br><br><br>
+    <li><a href="About.html">About Us</a></li>
+  </ul>
+</nav>
+
+<body> 
+
+
+
+</div>
+
+  
+
+</body>
+</html>
+		<center>
+<a href="new 1.html" target="_self">FORM</a><br><br><br><br><br><br><br>
+<a style="color:mistyrose;" href="TEST.html" target="_self">TAKE TEST</a><br><br><br><br><br><br><br>
+<a href="article.html" target="_self">SOME F.A.Q</a><br><br><br><br><br><br><br>
+<a href="media.html" target="_self">PLAY MEDIA</a><br><br><br><br><br><br><br>
+<a href="http://tiny.cc/g313mz" target="_self">CHECK STATISTICS</a>
+				</center>
+
+<footer>NCDC 2020</footer>
+
+
+
+</body>
+</html>
