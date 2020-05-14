@@ -6,22 +6,28 @@
 	<title>
 	COVID-19 SELF DIAGNOSIS
 	</title>
-    
+    <style>
+	
+	.boxed{
+	border:1px solid green;
+	background-color:yellow;
+	}
+	</style>
 </head>
 
-    <div class = style="background-color:lightblue
+    
         <div class="container-md ">
                 
                 <div class="d-flex justify-content-center  mt-2">
                     
                     <div class="row">
 					<center>
-                        <div class="col-md-5 "><img src="assets/favicon/corona.png" class="img-fluid  float-sm-right   mt-3 lefter " /></div>
-                        <div class="col-md-7 "><h1 class="text-left"> SELF DIAGNOSIS</h1></div>
+                        <div class="col-md-5 "><img src="assets/favicon/corona.png"  /></div>
+                        <h1> SELF DIAGNOSIS</h1>
 						</center>
                     </div>
                 </div>
-               </div>
+               
                 
                 <span id="clicks" class="invisible"></span>
                 <span id=""></span><br><br><br><br><br><br>
@@ -33,10 +39,10 @@
 
                   
                   <center><img src="assets/gallery/cough.png" class=" img-fluid" /></center>
-                 <center> <h2 class="mb-5 text-center">Do you have dry cough?</h2>
+                 <center> <h2 >Do you have dry cough?</h2>
                 	<div class="input-group mb-3">
 							
-					<input style="background-color:lightblue" type="button" value="YES" class="nexttab btn btn-primary btn-lg form-control form-control-lg"  onclick="onClick()" />	
+					<input style="background-color:lightblue" type="button" value="Y''E''S" class="nexttab btn btn-primary btn-lg form-control form-control-lg"  onclick="onClick()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -183,7 +189,7 @@
   </div>
                  <br><br><br><br><br><br>
                   <center><img src="assets/gallery/travel.png" class=" img-fluid" />
-                  <h2 class="mb-4 text-center">Do you have a history of <br />traveling  to an area infected with <br />COVID-19 ?</h2>
+                  <h2 class="mb-4 text-center">Do you have a history of traveling  to an <br />area infected with <br />COVID-19 ?</h2>
                 	<div class="input-group mb-3">
                         	<input style="background-color:lightblue" type="button" value="YES" class="nexttab btn btn-primary btn-lg form-control form-control-lg"  onclick="onClick()" />	
                     </div><br>
@@ -193,6 +199,7 @@
 						</div><br>
               </div>
           </div>
+		  
 
             </div>
       </center>
@@ -213,7 +220,7 @@
             </div>
       </center>
   </div>
-                 <br><br><br><br><br><br><br><br><br><br><br><br>
+                 <br><br><br><br><br><br>
                   <center><img src="assets/gallery/result.png" class=" img-fluid" /></center><hr style="border-top:4px solid #000000; margin-bottom:0px;" />
                   <h5 class="mb-1  text-left">RESULT:</h5>
                   <h6 class="mb-1  text-left">THE CHANCE OF YOU <br />HAVING COVID-19 is</h6>
@@ -459,9 +466,18 @@
                         document.getElementById("holder").innerHTML = 'HELLO.';
                 }
             };
-       
-            
+      
+         
+			
+			
     </script>
-    </form>
+	<center>
+
+<form>
+  <input   type="button" style="background-color:lightblue"
+		   onclick="location.href='TEST.HTML';" value="TAKE ANOTHER TEST"/>
+		   </form>
+
+	</center>
 </body>
 </html>
