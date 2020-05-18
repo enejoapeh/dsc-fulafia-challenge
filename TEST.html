@@ -16,7 +16,7 @@
                     
                     <div class="row">
 					<center>
-					<span id="clicks" class="invisible"></span>
+					
                         <div class="col-md-5 "><img src="assets/favicon/corona.png"  /></div>
                         <h1> SELF DIAGNOSIS</h1>
 						</center>
@@ -90,7 +90,7 @@
                   <center><img src="assets/gallery/bodyache.png"  />
                   <h2 class="mb-4 text-center">Are you having body <br />aches?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S" onclick="onClick()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S" onclick="noClick()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -106,7 +106,7 @@
                   <center><img src="assets/gallery/headache.png" class=" img-fluid" />
                   <h2 class="mb-4 text-center">Are you experiencing <br />headache?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="onClick()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="noClick()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -170,7 +170,7 @@
                   <center><img src="assets/gallery/travel.png" class=" img-fluid" />
                   <h2 class="mb-4 text-center">Have you traveled <br />in the past <br />14 days?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="onClicktriple()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="onClickdouble()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -217,7 +217,7 @@
   </div>
                  <br><br><br><br><br><br>
                   <center><img src="assets/gallery/result.png" class=" img-fluid" /></center><hr style="border-top:4px solid #000000; margin-bottom:0px;" />
-                  <h5 class="mb-1  text-left">RESULT:</h5>
+                  <h5 class="mb-1  text-left">RESULT: <span style="color:white;"id="clicks"class="invisible"></span> </h5>
 				  
                   <h6 class="mb-1  text-left">THE CHANCE OF YOU <br />HAVING COVID-19 is</h6>
                   <h2 id="holder"></h2>
@@ -249,7 +249,7 @@
                     case 2:
                         document.getElementById("holder").innerHTML = 'LOW.';
                         document.getElementById("holder").style.color = '#90ee90';
-                        document.getElementById("resulthold").innerHTML = 'You may be stressed,get some rest.';
+                        document.getElementById("resulthold").innerHTML = 'You may be stressed, try and get some rest.';
                         // code block
                         break;
                     case 3:
@@ -257,7 +257,7 @@
                     case 5:
                         document.getElementById("holder").innerHTML = 'MEDIUM.';
                         document.getElementById("holder").style.color = '#ffbf00';
-                        document.getElementById("resulthold").innerHTML = 'Drink water regularly and observe personal good hygiene.<br />Pay attention to your health and redo test after two days.';
+                        document.getElementById("resulthold").innerHTML = 'Drink water regularly and observe good personal hygiene.<br />Pay attention to your health and redo test after two days.';
                         // code block
                         break;
                     case 6:
@@ -269,7 +269,7 @@
                     case 12:
                         document.getElementById("holder").innerHTML = 'HIGH.';
                         document.getElementById("holder").style.color = '#ff5500';
-                        document.getElementById("resulthold").innerHTML = 'Please see a doctor immediately.Do not panic,<br />isolate yourself from friends and family.';
+                        document.getElementById("resulthold").innerHTML = 'Please isolate yourself and see a doctor immediately.Do not panic,<br />';
 
                         // code block
                         break;
@@ -286,7 +286,7 @@
                     case 23:
                         document.getElementById("holder").innerHTML = 'SEVERE';
                         document.getElementById("holder").style.color = '#FF0000';
-                        document.getElementById("resulthold").innerHTML = 'Do not panic,isolate yourself from friends and family.<br />Call 0800-9700-0010 or visit covid19.ncdc.gov.ng'
+                        document.getElementById("resulthold").innerHTML = 'Do not panic,isolate yourself from people immidiately<br>keep track of all those you came in contact with.<br /> Call 0800-9700-0010 or visit covid19.ncdc.gov.ng'
 
                         // code block
                         break;
