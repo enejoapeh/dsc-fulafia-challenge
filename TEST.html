@@ -6,13 +6,7 @@
 	<title>
 	COVID-19 SELF DIAGNOSIS
 	</title>
-    <style>
-	
-	.boxed{
-	border:1px solid green;
-	background-color:yellow;
-	}
-	</style>
+    
 </head>
 
     
@@ -22,6 +16,7 @@
                     
                     <div class="row">
 					<center>
+					<span id="clicks" class="invisible"></span>
                         <div class="col-md-5 "><img src="assets/favicon/corona.png"  /></div>
                         <h1> SELF DIAGNOSIS</h1>
 						</center>
@@ -29,8 +24,8 @@
                 </div>
                
                 
-                <span id="clicks" class="invisible"></span>
-                <span id=""></span><br><br><br><br><br><br>
+                
+                
  <!-- Nav tabs -->
 
 
@@ -125,9 +120,9 @@
   </div>
                  <br><br><br><br><br><br>
                   <center><img src="assets/gallery/temperature.png" class=" img-fluid" />
-                  <h2 class="mb-4 text-center">Do you have fever of<br />Temperature of above 35°C ?</h2>
+                  <h2 class="mb-4 text-center">Do you have fever of<br />Temperature above 38°C ?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"   onclick="onClick()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"   onclick="onClickdouble()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -175,7 +170,7 @@
                   <center><img src="assets/gallery/travel.png" class=" img-fluid" />
                   <h2 class="mb-4 text-center">Have you traveled <br />in the past <br />14 days?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S" onclick="onClick()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="onClicktriple()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -191,7 +186,7 @@
                   <center><img src="assets/gallery/travel.png" class=" img-fluid" />
                   <h2 class="mb-4 text-center">Do you have a history of traveling  to an <br />area infected with <br />COVID-19 ?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S" onclick="onClick()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S" onclick="onClicktriple()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -208,7 +203,7 @@
                   <center><img src="assets/gallery/contact.png" class=" img-fluid" />
                   <h2 class="mb-4 text-center">Did you have direct contact<br /> with or are you taking care of a<br /> positive COVID-19 PATIENT?</h2>
                 	<div class="input-group mb-3">
-                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="onClick()" />	
+                        	<input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"  onclick="onClicktriple()" />	
                     </div><br>
                   <div class="input-group mb-3">
 						
@@ -223,6 +218,7 @@
                  <br><br><br><br><br><br>
                   <center><img src="assets/gallery/result.png" class=" img-fluid" /></center><hr style="border-top:4px solid #000000; margin-bottom:0px;" />
                   <h5 class="mb-1  text-left">RESULT:</h5>
+				  
                   <h6 class="mb-1  text-left">THE CHANCE OF YOU <br />HAVING COVID-19 is</h6>
                   <h2 id="holder"></h2>
                 	<p id="resulthold" class="  font-weight-bold" style="color:#000000;"></p>
