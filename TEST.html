@@ -6,8 +6,10 @@
 	<title>
 	COVID-19 SELF DIAGNOSIS
 	</title>
-    
+    <style>input:hover,input:active{color:red}
+	</style>
 </head>
+<body>
 
     
         <div class="container-md ">
@@ -53,7 +55,7 @@
   <br><br><br><br><br><br>
                    
                   <center><img src="assets/gallery/cold.png" />
-                  <h2 class="mb-5 text-center">Do you have experience cold?</h2>
+                  <h2 class="mb-5 text-center">Do you experience cold?</h2>
                 	<div class="input-group mb-3">
                         <input style="background-color:lightblue" type="button" value="Y&emsp;E&emsp;S"   onclick="onClick()" />	
                     </div><br>
@@ -231,7 +233,7 @@
   </div>
    
 </div>
-               
+     
 
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -239,7 +241,8 @@
 <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js" ></script>
        
         <script type="text/javascript">
-            var clicks = 0;
+		
+		      var clicks = 0;
             function onClick() {
                 clicks += 1;
                 document.getElementById("clicks").innerHTML = clicks;
